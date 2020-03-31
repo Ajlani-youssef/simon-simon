@@ -1,0 +1,55 @@
+body
+{
+	display: flex ;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+.ligne
+{
+	display: flex ;
+	flex-direction: row;
+	justify-content: center ;
+}
+.bouton
+{
+	display : block ;
+	width: 200px ;
+	height: 200px ;
+	margin: 5px ;
+}
+#b1
+{
+	background: rgba(5,223,215);
+	opacity: 0.5 ;
+}
+#b2
+{
+	background: rgba(236,115,115);
+	opacity: 0.5 ;
+}
+#b3
+{
+	background: rgba(216,181,181);
+	opacity: 0.5 ;
+}
+#b4
+{
+	background: rgba(255,225,150) ;
+	opacity: 0.5 ;
+}
+p
+{
+	text-align: center ;
+}
+#bravo ,#perdu
+{
+	display : none ;
+}
+button
+{
+	display : block ;
+	width: 100px ;
+	height: 50px ;
+	align-self: center ;
+}
