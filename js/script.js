@@ -110,8 +110,8 @@ function allume(e){
 
 
 function perdu(){
-	perdu = document.getElementById("perdu") ;
-	perdu.style.display = "block";
+	bperdu = document.getElementById("perdu") ;
+	bperdu.style.display = "block";
 	restart();
 	startGame();
 }
